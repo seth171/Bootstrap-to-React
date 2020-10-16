@@ -1,0 +1,205 @@
+.navbar {
+    background-color: rgb(20, 20, 20);
+}
+
+.site-footer {
+    background-color: rgb(20, 20, 20);
+    color: white;
+}
+
+.nav-footer {
+    padding-top: 50px;
+    padding: 30px;
+    margin-top: 20px;
+}
+
+.App {
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.8em;
+}
+
+.img1, .img2, .img3, .img4 {
+    position: relative;
+    opacity: 0.90;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.img1 {
+    background-image: url('./images/spacexMain.jpg');
+    min-height: 900px;
+}
+
+.img2 {
+    background-image: url('./images/spacexHangar.jpg');
+    min-height: 740px;
+}
+
+.img3 {
+    background-image: url('./images/nasaLaunch.jpg');
+    min-height: 700px;
+}
+
+.img4 {
+    background-image: url('./images/space.jpg');
+    min-height: 700px;
+}
+
+.img1Logo {
+    background-image: url('./images/landingLogo.png');
+    background-repeat: no-repeat;
+    min-height: 900px;
+    background-size: 250px;
+    background-position-x: 30%;
+    background-position-y: 50%;
+}
+
+.title {
+    position: absolute;
+    top: 48%;
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+}
+
+.section {
+    text-align: center;
+    padding: 30px 50px;
+    background-color: rgb(20, 20, 20);
+    color: white;
+}
+
+.about-body, .mission-body, .join-body, .space-body {
+    background-color: rgb(20, 20, 20)
+}
+
+.firstLand {
+    background-image: url('./images/firstLand.jpg');
+    height: 800px;
+    background-position: center;
+}
+
+.row {
+    padding: 20px;
+    color: white;
+}
+
+.firstSea {
+    background-image: url('./images/firstSea.jpg');
+    height: 800px;
+    background-position: center;
+}
+
+.firstReuse {
+    background-image: url('./images/firstReuse.jpg');
+    height: 800px;
+    background-position: center;
+}
+
+.firstHeavy {
+    background-image: url('./images/firstHeavy.jpg');
+    height: 800px;
+    background-position: center;
+}
+
+.genderRadio, .contactRadio {
+    padding-right: 20px;
+}
+
+.cards {
+    background-position: left;
+    height: 300px;
+    padding-right: 10px;
+}
+
+.accordion {
+    color: black;
+}
+
+.space-title {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.photo {
+    height: 700px;
+}
+
+.falcon {
+    height: 697px;
+}
+
+#dragonImg {
+    position: absolute;
+    right: 400px;
+    top: 20%;
+}
+
+#trunkImg {
+    position: absolute;
+    right: 600px;
+    top: 10%;
+    height: 500px;
+    width: 552px;
+}
+
+#secondImg {
+    position: absolute;
+    right: 500px;
+    top: 10%;
+    height: 500px;
+    width: 829px;
+}
+
+#firstImg {
+    position: absolute;
+    right: 400px;
+    top: 20%;
+    height: 400px;
+    width: 1021px;
+}
+
+#dragonText {
+    position: absolute;
+    color: white;
+    left: 500px;
+    right: 150px;
+    top: 80%;
+}
+
+#trunkText {
+    position: absolute;
+    color: white;
+    left: 500px;
+    right: 150px;
+    top: 80%;
+}
+
+#secondText {
+    position: absolute;
+    color: white;
+    left: 500px;
+    right: 150px;
+    top: 80%;
+}
+
+#firstText {
+    position: absolute;
+    color: white;
+    left: 500px;
+    right: 150px;
+    top: 80%;
+}
+
+#learn {
+    color: white;
+    position: absolute;
+    left: 50px;
+    top: 7%;
+    font-weight: bolder;
+}
